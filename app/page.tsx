@@ -1,33 +1,10 @@
 import Image from "next/image";
+import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#06070b] text-white">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-        <a
-          href="#"
-          className="flex items-center gap-3 rounded-full transition hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20"
-          aria-label="Santosyn home"
-        >
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-teal-400 text-black font-semibold">
-            S
-          </div>
-          <Image
-            src="/santosyn-logo.png"
-            alt="Santosyn"
-            width={160}
-            height={40}
-            priority
-            className="h-6 w-auto opacity-95"
-          />
-        </a>
-
-        <div className="hidden md:flex items-center gap-8 text-sm text-white/70">
-          <a href="#products" className="hover:text-white">Products</a>
-          <a href="#about" className="hover:text-white">About</a>
-          <a href="#contact" className="hover:text-white">Contact</a>
-        </div>
-      </nav>
+      <Header />
 
       <section className="relative isolate overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10">
