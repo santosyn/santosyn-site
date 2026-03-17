@@ -98,7 +98,13 @@ export default function Home() {
             className="group rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.045] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/60"
           >
             <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-400/15 ring-1 ring-white/10 transition group-hover:bg-teal-400/20">
-              <span className="text-sm font-semibold text-teal-200">ERT</span>
+              <Image
+                src="/elite-round-timer-logo.png"
+                alt="Elite Round Timer"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-2xl object-cover"
+              />
             </div>
             <div className="flex items-center gap-2">
               <h3 className="text-xl font-semibold">Elite Round Timer</h3>
