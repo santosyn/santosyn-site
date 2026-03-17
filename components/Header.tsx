@@ -7,7 +7,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <Link
           href="/"
-          className="flex items-center gap-3 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20"
+          className="flex items-center rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20"
           aria-label="Santosyn home"
         >
           <Image
@@ -16,7 +16,7 @@ export function Header() {
             width={200}
             height={48}
             priority
-            className="h-[34px] w-auto"
+            className="h-[22px] w-auto opacity-95 md:h-[26px]"
           />
         </Link>
 
