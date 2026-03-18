@@ -1,23 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/5 bg-[#06070b]/75 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
         <Link
           href="/"
-          className="flex items-center rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20"
           aria-label="Santosyn home"
+          className="text-[28px] font-semibold tracking-[0.18em] text-white"
         >
-          <Image
-            src="/logo.png"
-            alt="Santosyn"
-            width={200}
-            height={48}
-            priority
-            className="h-[22px] w-auto opacity-95 md:h-[26px]"
-          />
+          SANTOSYN
         </Link>
 
         <nav className="hidden md:flex items-center gap-10 text-sm font-medium text-white/70">
@@ -35,4 +27,3 @@ export function Header() {
     </header>
   );
 }
-
