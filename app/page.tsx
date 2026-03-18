@@ -113,7 +113,7 @@ export default function Home() {
       <section id="contact" className="mx-auto max-w-6xl px-6 pb-24">
         <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 md:p-10">
           <h2 className="text-2xl font-semibold md:text-3xl">Contact</h2>
-          <p className="mt-4 text-white/65">santosynai@outlook.com</p>
+          <p className="mt-4 text-white/65">support@santosyn.com</p>
           <p className="mt-2 text-white/65">Melbourne, Victoria, Australia</p>
 
           <div className="mt-10 border-t border-white/10 pt-6 text-sm text-white/45">
